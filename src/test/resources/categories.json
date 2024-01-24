@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Environment issue",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*EnvironmentException.*"
+    },
+  {
+    "name": "Automation bug",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*TAFRuntimeException.*"
+  },
+  {
+    "name": "To investigate",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": "^(?:(?!TAFRuntimeException|EnvironmentException).)+$"
+  },
+  {
+    "name": "Skipped tests",
+    "matchedStatuses": ["skipped"]
+  },
+  {
+    "name": "Passed tests",
+    "matchedStatuses": ["passed"]
+  }
+]
