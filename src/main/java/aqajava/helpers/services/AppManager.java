@@ -3,19 +3,20 @@ package aqajava.helpers.services;
 import aqajava.helpers.pageobjects.*;
 import aqajava.properties.ConfigProperties;
 import aqajava.webdriver.Browser;
+import lombok.Getter;
 import lombok.extern.log4j.Log4j;
 
 @Log4j
 public class AppManager {
 
-    private Authentication authentication;
-    private MainPage mainPage;
-    private MainMenu mainMenu;
-    private PagesPage pagesPage;
-    private PostsPage postsPage;
-    private MediaPage mediaPage;
-    private CommentsPage commentsPage;
-    private Waitings waitings;
+    @Getter private Authentication authentication;
+    @Getter private MainPage mainPage;
+    @Getter private MainMenu mainMenu;
+    @Getter private PagesPage pagesPage;
+    @Getter private PostsPage postsPage;
+    @Getter private MediaPage mediaPage;
+    @Getter private CommentsPage commentsPage;
+    @Getter private Waitings waitings;
 
     public String baseUrl;
     private static AppManager appInstance;
@@ -51,39 +52,5 @@ public class AppManager {
         if (appInstance != null) {
             appInstance = null;
         }
-    }
-
-    //------------------------
-
-    public Authentication getAuthentication() {
-        return authentication;
-    }
-
-    public MainPage getMainPage() {
-        return mainPage;
-    }
-
-    public MainMenu getMainMenu() {
-        return mainMenu;
-    }
-
-    public PagesPage getPagesPage() {
-        return pagesPage;
-    }
-
-    public PostsPage getPostsPage() {
-        return postsPage;
-    }
-
-    public MediaPage getMediaPage() {
-        return mediaPage;
-    }
-
-    public CommentsPage getCommentsPage() {
-        return commentsPage;
-    }
-
-    public Waitings getWaitings() {
-        return waitings;
     }
 }

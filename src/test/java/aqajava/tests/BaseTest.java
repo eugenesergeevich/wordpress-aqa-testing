@@ -11,9 +11,9 @@ import org.testng.annotations.*;
 @Log4j
 public class BaseTest {
 
-    protected AppManager app;
+    protected static AppManager app;
 
-    @BeforeClass
+    @BeforeSuite
     public void setUp() {
         log.info("Execute BeforeClass setUp");
         app = AppManager.getAppInstance();
@@ -25,7 +25,7 @@ public class BaseTest {
         app.getAuthentication().openLoginPage();
     }
 
-    @AfterClass
+    @AfterSuite
     public void tearDown() {
         log.info("Execute AfterClass tearDown");
         app.stop();

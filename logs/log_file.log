@@ -2907,3 +2907,270 @@
 2024-01-14 06:59:54 INFO  BaseTest:30 - Execute AfterClass tearDown
 2024-01-14 06:59:54 INFO  AppManager:50 - Stop process of Webdriver and AppManager instance
 2024-01-14 06:59:54 INFO  Browser:33 - Close and quit WebDriver
+2024-04-24 20:16:47 INFO  AdminPermissionsTest:18 - Load from properties file ADMIN_LOGIN null and ADMIN_PASSWORD
+2024-04-24 20:16:47 INFO  BaseTest:18 - Execute BeforeClass setUp
+2024-04-24 20:16:47 INFO  AppManager:41 - Create AppManager instance
+2024-04-24 20:21:57 INFO  AdminPermissionsTest:18 - Load from properties file ADMIN_LOGIN Admin and ADMIN_PASSWORD
+2024-04-24 20:21:57 INFO  BaseTest:18 - Execute BeforeClass setUp
+2024-04-24 20:21:58 INFO  AppManager:41 - Create AppManager instance
+2024-04-24 20:21:58 INFO  Browser:21 - Initialize WebDriver
+2024-04-24 20:21:58 INFO  BrowserFactory:17 - Load from properties file WEBDRIVER webdriver.chrome.driver and WEBDRIVER_PATH src/chromedriver.exe
+2024-04-24 20:21:58 INFO  BrowserFactory:24 - Create ChromeDriver
+2024-04-24 20:22:13 INFO  AppManager:26 - Load from properties file BASE_URL https://mytest.hhos.ru/
+2024-04-24 20:22:13 INFO  AppManager:44 - Return AppManager instance
+2024-04-24 20:22:13 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:22:13 DEBUG Authentication:26 - Open login page
+2024-04-24 20:22:13 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:22:15 INFO  AdminPermissionsTest:30 - testCreatePageAndSaveItAsDraft, using Admin account
+2024-04-24 20:22:15 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:22:15 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:22:15 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:22:17 WARN  BasePage:41 - Element By.cssSelector: #wp-admin-bar-logout a is not present in DOM
+2024-04-24 20:22:17 DEBUG Authentication:26 - Open login page
+2024-04-24 20:22:17 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:22:18 DEBUG Authentication:79 - Fill login form's field with locator By.cssSelector: #user_login
+2024-04-24 20:22:18 DEBUG Authentication:79 - Fill login form's field with locator By.cssSelector: #user_pass
+2024-04-24 20:22:19 DEBUG Authentication:45 - Click on 'Remember me' check box with locator By.cssSelector: #rememberme
+2024-04-24 20:22:19 DEBUG Authentication:47 - Click on login submit button with locator By.cssSelector: #wp-submit
+2024-04-24 20:22:25 INFO  Randomizer:11 - Generated random title or email FwK1Vd3tp01j49W
+2024-04-24 20:22:25 INFO  Randomizer:23 - Generated random content sQbPI8nSMj sJb1qsyoCa ouwRy0O5i9 u1wpiDC3ku PtcUUNq8wc o8NUwTK4wF zDEMVpV0m0 XjMF8BRC87
+2024-04-24 20:22:25 DEBUG PagesPage:35 - Create page and save it as draft
+2024-04-24 20:22:25 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:22:25 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:22:27 DEBUG PagesPage:194 - Init page creation by clicking on locator By.xpath: //div[@class='wrap']/a[contains(text(),'Add New Page')]
+2024-04-24 20:22:32 DEBUG Waitings:19 - Wait for element is present with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:22:35 DEBUG BasePage:104 - Switch to frame with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:22:40 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: h1.wp-block and data PageTitle FwK1Vd3tp01j49W
+2024-04-24 20:22:42 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: div.is-root-container p and data PageContent sQbPI8nSMj sJb1qsyoCa ouwRy0O5i9 u1wpiDC3ku PtcUUNq8wc o8NUwTK4wF zDEMVpV0m0 XjMF8BRC87
+2024-04-24 20:22:45 DEBUG BasePage:109 - Switch from frame to default content
+2024-04-24 20:22:45 DEBUG BasePage:114 - Click on Save draft button with locator By.xpath: //button[text()='Save draft']
+2024-04-24 20:22:45 DEBUG Waitings:32 - Wait for element is clickable with locator By.xpath: //div//div[contains(text(),'Draft saved')]/a[contains(text(), 'View Preview')]
+2024-04-24 20:22:46 DEBUG PagesPage:46 - Get title and content of created saving as draft page, based on PageData(pageTitle=PageTitle FwK1Vd3tp01j49W, pageContent=PageContent sQbPI8nSMj sJb1qsyoCa ouwRy0O5i9 u1wpiDC3ku PtcUUNq8wc o8NUwTK4wF zDEMVpV0m0 XjMF8BRC87)
+2024-04-24 20:22:46 INFO  Randomizer:11 - Generated random title or email 2KPdHU3ABDN41Bv
+2024-04-24 20:22:46 INFO  Randomizer:23 - Generated random content OZ0usKSAxw 6lxZWcrur2 qMUFFBV2Ij bZzuxKpGos VfLJS1O84g q4wJp0jBz1 ANL4jf7RBl SljkwPgayK
+2024-04-24 20:22:46 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:22:46 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:22:49 DEBUG BasePage:55 - Click on Pages sub item Draft with locator //ul[@class='subsubsub']//a[contains(text(), 'Draft')]
+2024-04-24 20:22:51 DEBUG BasePage:91 - Find in table title PageTitle FwK1Vd3tp01j49W, using search form with locator By.cssSelector: #post-search-input
+2024-04-24 20:22:51 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: #post-search-input and data PageTitle FwK1Vd3tp01j49W
+2024-04-24 20:22:51 DEBUG BasePage:93 - Click on search submit button with locator By.cssSelector: #search-submit
+2024-04-24 20:22:53 DEBUG Waitings:19 - Wait for element is present with locator By.xpath: //div/span[contains(text(), 'Search results for:')]
+2024-04-24 20:22:53 DEBUG BasePage:78 - Hover in table over the row with title PageTitle FwK1Vd3tp01j49W and locator //table[contains(@class, 'wp-list-table widefat fixed striped table-view-list')]//td//a[contains(text(), 'PageTitle FwK1Vd3tp01j49W')]
+2024-04-24 20:22:54 DEBUG BasePage:86 - Click on item Preview in row actions menu with locator //div[@class='row-actions']//a[contains(text(), 'Preview')]['1']
+2024-04-24 20:22:57 DEBUG Waitings:19 - Wait for element is present with locator By.cssSelector: hr.wp-block-separator
+2024-04-24 20:22:57 DEBUG BasePage:99 - Get text by locator By.cssSelector: main h1
+2024-04-24 20:22:57 DEBUG BasePage:99 - Get text by locator By.cssSelector: div.entry-content
+2024-04-24 20:22:57 INFO  BaseTest:36 - Saving screenshot
+2024-04-24 20:22:57 INFO  AdminPermissionsTest:39 - Assert, is actual page title PageTitle FwK1Vd3tp01j49W equals expected page title PageTitle FwK1Vd3tp01j49W
+2024-04-24 20:22:57 INFO  AdminPermissionsTest:44 - Assert, is actual page content PageContent sQbPI8nSMj sJb1qsyoCa ouwRy0O5i9 u1wpiDC3ku PtcUUNq8wc o8NUwTK4wF zDEMVpV0m0 XjMF8BRC87 equals expected page content PageContent sQbPI8nSMj sJb1qsyoCa ouwRy0O5i9 u1wpiDC3ku PtcUUNq8wc o8NUwTK4wF zDEMVpV0m0 XjMF8BRC87
+2024-04-24 20:22:57 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:22:57 DEBUG Authentication:26 - Open login page
+2024-04-24 20:22:57 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:22:59 INFO  AdminPermissionsTest:57 - testCreatePageAndPublishIt, using Admin account
+2024-04-24 20:22:59 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:22:59 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:22:59 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:22:59 DEBUG Authentication:73 - Check, is already login to account with username Admin
+2024-04-24 20:22:59 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:22:59 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:22:59 INFO  Randomizer:11 - Generated random title or email ZOEjqXfd2kjZIWb
+2024-04-24 20:22:59 INFO  Randomizer:23 - Generated random content MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz
+2024-04-24 20:22:59 DEBUG PagesPage:60 - Create page and publish it
+2024-04-24 20:22:59 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:22:59 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:23:01 DEBUG PagesPage:194 - Init page creation by clicking on locator By.xpath: //div[@class='wrap']/a[contains(text(),'Add New Page')]
+2024-04-24 20:23:03 DEBUG Waitings:19 - Wait for element is present with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:23:04 DEBUG BasePage:104 - Switch to frame with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:23:04 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: h1.wp-block and data PageTitle ZOEjqXfd2kjZIWb
+2024-04-24 20:23:05 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: div.is-root-container p and data PageContent MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz
+2024-04-24 20:23:07 DEBUG BasePage:109 - Switch from frame to default content
+2024-04-24 20:23:07 DEBUG PagesPage:200 - Publish page by clicking on buttons with locator By.xpath: //button[text()='Publish'] and locator By.xpath: //div[@class='editor-post-publish-panel__header-publish-button']/button[text()='Publish']
+2024-04-24 20:23:08 DEBUG Waitings:32 - Wait for element is clickable with locator By.xpath: //div[@class='editor-post-publish-panel__header-publish-button']/button[text()='Publish']
+2024-04-24 20:23:08 DEBUG Waitings:32 - Wait for element is clickable with locator By.xpath: //div[@class='post-publish-panel__postpublish-buttons']/a[text()='View Page']
+2024-04-24 20:23:09 DEBUG PagesPage:71 - Get title and content of created published page, based on PageData(pageTitle=PageTitle ZOEjqXfd2kjZIWb, pageContent=PageContent MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz)
+2024-04-24 20:23:09 INFO  Randomizer:11 - Generated random title or email uZ0ms71LmjngtEr
+2024-04-24 20:23:09 INFO  Randomizer:23 - Generated random content ZoMa0CnOAr sZvRXeqSaN nM3kuC95kB ikcZhnzeLj BhbGtgZucM w0YPoq6TPe EzzIAYpnfY lOCAmM9ai4
+2024-04-24 20:23:09 DEBUG Authentication:52 - Logout from account
+2024-04-24 20:23:09 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:09 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:09 DEBUG BasePage:137 - Scroll to element with locator By.cssSelector: #wp-admin-bar-my-account a
+2024-04-24 20:23:10 DEBUG Waitings:32 - Wait for element is clickable with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:13 DEBUG PagesPage:213 - Opening created page with pagedata PageData(pageTitle=PageTitle ZOEjqXfd2kjZIWb, pageContent=PageContent MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz)
+2024-04-24 20:23:14 DEBUG Waitings:19 - Wait for element is present with locator By.cssSelector: hr.wp-block-separator
+2024-04-24 20:23:14 DEBUG BasePage:99 - Get text by locator By.cssSelector: main h1
+2024-04-24 20:23:14 DEBUG BasePage:99 - Get text by locator By.cssSelector: div.entry-content
+2024-04-24 20:23:14 INFO  BaseTest:36 - Saving screenshot
+2024-04-24 20:23:15 INFO  AdminPermissionsTest:66 - Assert, is actual page title PageTitle ZOEjqXfd2kjZIWb equals expected page title PageTitle ZOEjqXfd2kjZIWb
+2024-04-24 20:23:15 INFO  AdminPermissionsTest:71 - Assert, is actual page content PageContent MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz equals expected page content PageContent MNSIVgat2F 1nERaxAdjO Rmu2glVml3 ZdbwJP3FfE ckwtZ6t4r0 DSDFVPsoZw WxXHdZgqmQ pEfdac6zJz
+2024-04-24 20:23:15 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:15 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:15 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:16 INFO  AdminPermissionsTest:84 - testEditSavingAsDraftPage, using Admin account
+2024-04-24 20:23:16 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:16 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:16 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:17 WARN  BasePage:41 - Element By.cssSelector: #wp-admin-bar-logout a is not present in DOM
+2024-04-24 20:23:17 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:17 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:18 DEBUG Authentication:79 - Fill login form's field with locator By.cssSelector: #user_login
+2024-04-24 20:23:22 DEBUG Authentication:79 - Fill login form's field with locator By.cssSelector: #user_pass
+2024-04-24 20:23:22 DEBUG Authentication:45 - Click on 'Remember me' check box with locator By.cssSelector: #rememberme
+2024-04-24 20:23:22 DEBUG Authentication:47 - Click on login submit button with locator By.cssSelector: #wp-submit
+2024-04-24 20:23:26 INFO  Randomizer:11 - Generated random title or email Ze8xJoQW2dl2anj
+2024-04-24 20:23:26 INFO  Randomizer:23 - Generated random content HNjLOPf7vF bZGLMxWNzY 0d0THmMu4K huZWygoiqy L8zrbt2Q4Z WGDv7lOKcI iZI86O4JfY QWYG5at3nc
+2024-04-24 20:23:26 DEBUG PagesPage:81 - Edit saving as draft page with table's list index 0 and new data PageData(pageTitle=PageTitle Ze8xJoQW2dl2anj, pageContent=PageContent HNjLOPf7vF bZGLMxWNzY 0d0THmMu4K huZWygoiqy L8zrbt2Q4Z WGDv7lOKcI iZI86O4JfY QWYG5at3nc)
+2024-04-24 20:23:26 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:23:26 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:23:27 DEBUG BasePage:61 - Try to find in DOM sub item Draft with locator //ul[@class='subsubsub']//a[contains(text(), 'Draft')]
+2024-04-24 20:23:27 DEBUG BasePage:55 - Click on Pages sub item Draft with locator //ul[@class='subsubsub']//a[contains(text(), 'Draft')]
+2024-04-24 20:23:28 DEBUG BasePage:71 - Hover in table with locator By.cssSelector: tbody#the-list tr over the row with index 0
+2024-04-24 20:23:29 DEBUG BasePage:86 - Click on item Edit in row actions menu with locator //div[@class='row-actions']//a[contains(text(), 'Edit')]['1']
+2024-04-24 20:23:32 DEBUG BasePage:104 - Switch to frame with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:23:32 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: div.is-root-container p and data PageContent HNjLOPf7vF bZGLMxWNzY 0d0THmMu4K huZWygoiqy L8zrbt2Q4Z WGDv7lOKcI iZI86O4JfY QWYG5at3nc
+2024-04-24 20:23:35 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: h1.wp-block and data PageTitle Ze8xJoQW2dl2anj
+2024-04-24 20:23:36 DEBUG BasePage:109 - Switch from frame to default content
+2024-04-24 20:23:36 DEBUG BasePage:114 - Click on Save draft button with locator By.xpath: //button[text()='Save draft']
+2024-04-24 20:23:37 DEBUG Waitings:32 - Wait for element is clickable with locator By.xpath: //div//div[contains(text(),'Draft saved')]/a[contains(text(), 'View Preview')]
+2024-04-24 20:23:37 DEBUG PagesPage:99 - Get title and content of edited saving as draft page
+2024-04-24 20:23:37 INFO  Randomizer:11 - Generated random title or email 5tXBKSBvcrJQ161
+2024-04-24 20:23:37 INFO  Randomizer:23 - Generated random content neyit4BH04 Wq177J9rZ9 i6oCC3JavM cACxMWmtJB Nw7oSfhujd gzGIOw7VW2 lhRjaRdP0h DHQvpwNR9A
+2024-04-24 20:23:37 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:23:37 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:23:38 DEBUG BasePage:55 - Click on Pages sub item Draft with locator //ul[@class='subsubsub']//a[contains(text(), 'Draft')]
+2024-04-24 20:23:39 DEBUG BasePage:91 - Find in table title PageTitle Ze8xJoQW2dl2anj, using search form with locator By.cssSelector: #post-search-input
+2024-04-24 20:23:39 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: #post-search-input and data PageTitle Ze8xJoQW2dl2anj
+2024-04-24 20:23:40 DEBUG BasePage:93 - Click on search submit button with locator By.cssSelector: #search-submit
+2024-04-24 20:23:41 DEBUG Waitings:19 - Wait for element is present with locator By.xpath: //div/span[contains(text(), 'Search results for:')]
+2024-04-24 20:23:41 DEBUG BasePage:78 - Hover in table over the row with title PageTitle Ze8xJoQW2dl2anj and locator //table[contains(@class, 'wp-list-table widefat fixed striped table-view-list')]//td//a[contains(text(), 'PageTitle Ze8xJoQW2dl2anj')]
+2024-04-24 20:23:41 DEBUG BasePage:86 - Click on item Preview in row actions menu with locator //div[@class='row-actions']//a[contains(text(), 'Preview')]['1']
+2024-04-24 20:23:42 DEBUG Waitings:19 - Wait for element is present with locator By.cssSelector: hr.wp-block-separator
+2024-04-24 20:23:42 DEBUG BasePage:99 - Get text by locator By.cssSelector: main h1
+2024-04-24 20:23:42 DEBUG BasePage:99 - Get text by locator By.cssSelector: div.entry-content
+2024-04-24 20:23:42 INFO  BaseTest:36 - Saving screenshot
+2024-04-24 20:23:43 INFO  AdminPermissionsTest:94 - Assert, is actual page title PageTitle Ze8xJoQW2dl2anj equals expected page title PageTitle Ze8xJoQW2dl2anj
+2024-04-24 20:23:43 INFO  AdminPermissionsTest:99 - Assert, is actual page content PageContent HNjLOPf7vF bZGLMxWNzY 0d0THmMu4K huZWygoiqy L8zrbt2Q4Z WGDv7lOKcI iZI86O4JfY QWYG5at3nc equals expected page content PageContent HNjLOPf7vF bZGLMxWNzY 0d0THmMu4K huZWygoiqy L8zrbt2Q4Z WGDv7lOKcI iZI86O4JfY QWYG5at3nc
+2024-04-24 20:23:43 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:43 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:43 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:44 INFO  AdminPermissionsTest:112 - testEditPublishedPage, using Admin account
+2024-04-24 20:23:44 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:44 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:44 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:44 DEBUG Authentication:73 - Check, is already login to account with username Admin
+2024-04-24 20:23:44 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:44 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:44 INFO  Randomizer:11 - Generated random title or email Pcn6Llm6FfJb1IH
+2024-04-24 20:23:44 INFO  Randomizer:23 - Generated random content qmqXv8n4MO LTmMiJ67vF 9OfpQuoxNB QQ0Pu1DEfV DrbbkRuvfl MShYzsg1za OhhPXARrya Y4icjFI7gI
+2024-04-24 20:23:44 DEBUG PagesPage:113 - Edit published page with table's list index 0 and new data PageData(pageTitle=PageTitle Pcn6Llm6FfJb1IH, pageContent=PageContent qmqXv8n4MO LTmMiJ67vF 9OfpQuoxNB QQ0Pu1DEfV DrbbkRuvfl MShYzsg1za OhhPXARrya Y4icjFI7gI) and also return edited page's Url
+2024-04-24 20:23:44 DEBUG PagesPage:30 - Open Pages
+2024-04-24 20:23:44 DEBUG MainMenu:19 - Click on Main menu item Pages with locator //ul[@id='adminmenu']//div[contains(text(), 'Pages')]
+2024-04-24 20:23:45 DEBUG BasePage:61 - Try to find in DOM sub item Published with locator //ul[@class='subsubsub']//a[contains(text(), 'Published')]
+2024-04-24 20:23:45 DEBUG BasePage:55 - Click on Pages sub item Published with locator //ul[@class='subsubsub']//a[contains(text(), 'Published')]
+2024-04-24 20:23:46 DEBUG BasePage:71 - Hover in table with locator By.cssSelector: tbody#the-list tr over the row with index 0
+2024-04-24 20:23:46 DEBUG BasePage:86 - Click on item Edit in row actions menu with locator //div[@class='row-actions']//a[contains(text(), 'Edit')]['1']
+2024-04-24 20:23:48 DEBUG BasePage:104 - Switch to frame with locator By.cssSelector: iframe[name='editor-canvas']
+2024-04-24 20:23:49 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: div.is-root-container p and data PageContent qmqXv8n4MO LTmMiJ67vF 9OfpQuoxNB QQ0Pu1DEfV DrbbkRuvfl MShYzsg1za OhhPXARrya Y4icjFI7gI
+2024-04-24 20:23:51 DEBUG BasePage:47 - Fill form's field with locator By.cssSelector: h1.wp-block and data PageTitle Pcn6Llm6FfJb1IH
+2024-04-24 20:23:52 DEBUG BasePage:109 - Switch from frame to default content
+2024-04-24 20:23:52 DEBUG BasePage:120 - Getting edited page's Url
+2024-04-24 20:23:54 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:54 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:54 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:56 INFO  AdminPermissionsTest:139 - testRemoveSavingAsDraftPage, using Admin account
+2024-04-24 20:23:56 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:56 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:56 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:57 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:57 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:57 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:57 INFO  AdminPermissionsTest:165 - testRemovePublishedPage, using Admin account
+2024-04-24 20:23:57 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:57 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:57 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:58 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:58 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:58 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:58 INFO  AdminPermissionsTest:191 - testCreatePostAndSaveItAsDraft, using Admin account
+2024-04-24 20:23:58 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:58 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:58 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:58 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:58 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:58 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:58 INFO  AdminPermissionsTest:218 - testCreatePostAndPublishIt, using Admin account
+2024-04-24 20:23:58 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:58 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:58 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:58 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:58 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:58 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:58 INFO  AdminPermissionsTest:245 - testEditSavingAsDraftPost, using Admin account
+2024-04-24 20:23:58 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:58 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:58 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:58 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:58 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:58 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:59 INFO  AdminPermissionsTest:273 - testEditPublishedPost, using Admin account
+2024-04-24 20:23:59 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:59 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:59 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:59 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:59 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:59 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:59 INFO  AdminPermissionsTest:300 - testRemoveSavingAsDraftPost, using Admin account
+2024-04-24 20:23:59 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:59 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:59 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:23:59 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:23:59 DEBUG Authentication:26 - Open login page
+2024-04-24 20:23:59 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:23:59 INFO  AdminPermissionsTest:326 - testRemovePublishedPost, using Admin account
+2024-04-24 20:23:59 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:23:59 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:23:59 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:00 INFO  AdminPermissionsTest:352 - testMarkUnapprovedCommentAsApproved, using Admin account
+2024-04-24 20:24:00 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:00 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:00 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:00 INFO  AdminPermissionsTest:375 - testMarkCommentAsSpam, using Admin account
+2024-04-24 20:24:00 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:00 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:00 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:00 INFO  AdminPermissionsTest:398 - testMarkCommentAsTrash, using Admin account
+2024-04-24 20:24:00 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:00 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:00 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:00 INFO  AdminPermissionsTest:421 - testEditComment, using Admin account
+2024-04-24 20:24:00 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:00 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:00 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:00 INFO  AdminPermissionsTest:454 - testAddMediaFileToLibrary, using Admin account
+2024-04-24 20:24:00 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:00 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:00 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:00 INFO  BaseTest:24 - Execute BeforeMethod
+2024-04-24 20:24:00 DEBUG Authentication:26 - Open login page
+2024-04-24 20:24:00 DEBUG Authentication:62 - Check, is login page already open
+2024-04-24 20:24:01 INFO  AdminPermissionsTest:477 - testRemoveMediaFileFromLibrary, using Admin account
+2024-04-24 20:24:01 DEBUG Authentication:34 - Login to Admin account
+2024-04-24 20:24:01 DEBUG Authentication:68 - Check, is already login to account
+2024-04-24 20:24:01 DEBUG BasePage:37 - Try to find DOM element with locator By.cssSelector: #wp-admin-bar-logout a
+2024-04-24 20:24:01 INFO  BaseTest:30 - Execute AfterClass tearDown
+2024-04-24 20:24:01 INFO  AppManager:49 - Stop process of Webdriver and AppManager instance
+2024-04-24 20:24:01 INFO  Browser:33 - Close and quit WebDriver
